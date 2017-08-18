@@ -13,7 +13,7 @@ Right now, My Anime List allows users to generate custom themes. However, I like
 
 To include, basically add to your `index.html` file: 
 
-	`<link rel="stylesheet" href="malTable.css">`
+	<link rel="stylesheet" href="malTable.css">
 
 e.g.
 
@@ -37,14 +37,14 @@ Obviously, this only works if you put it in the root directory (the same directo
 
 3. For the table's title, use the `table-title` class:
 	
-		`<p class="table-title">The Table Title</p>`
+		<p class="table-title">The Table Title</p>
 
 4. The div that *contains* the table, use the `tdiv` class: 
 
-		`<div align="center" class="tdiv">`	
+		<div align="center" class="tdiv">	
 
 5. The table tag *should* have `cellspacing` and `cellpadding` manually added to it: 
 
-		`<table cellspacing="0" cellpadding="0">`
+		<table cellspacing="0" cellpadding="0">
 
 6. You can modify the [sample](MALTable/sample_for_malTable.html) file after downloading the project.
