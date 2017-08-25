@@ -3,9 +3,8 @@
 Contains CSS and JS files that do things that I find useful.
 
 ##### Table of Contents  
-* [MAL List](##MAL-List)  
-* [Programming Langague SVGs](##Programming-Langague-SVGs)  
-* [Incomplete](#Incomplete)
+* [MAL List](CSS-and-JS#mal-list)  
+* [Programming Language SVGs](CSS-and-JS#programming-language-svgs)  
 
 
 ## MAL List: 
@@ -72,9 +71,9 @@ I create them to use for my [personal website](http://kaushikg94.github.io). The
 	* Upload the file to a [website](https://icomoon.io) that created the font.
 	* Download the font from them.
 	* Include a CSS file (that contained the `@fontface` information).
-* Everytime I wanted to add an icon to the existing set, I would have to go through this process and upload the *whole* set of `.svg` files!
+* Every time I wanted to add an icon to the existing set, I would have to go through this process and upload the *whole* set of `.svg` files!
 * Since `.svg` files could be included directly in to the `.html` file as a tag, I decided to use them directly with the `<object>` tag. The `.svg` files can be created and added standalone when needed.
-* However, `.svg` files can be tricky to use. Changing colors and using `font-weight` on them doesnt' work unless their paths are grouped. 
+* However, `.svg` files can be tricky to use. Changing colors and using `font-weight` on them doesn't' work unless their paths are grouped. 
 * My website is using a black-and-white theme, and this isn't a problem (yet).
 
 **To Use: For Noobs**
@@ -86,7 +85,7 @@ There are many ways to include `.svg` files in HTML.
 * One way is to use the `<svg>..</svg>` tags directly on the page.
 * However, I prefer using them in the `<objects>` tag instead. 
 	* Using this, you can save the `.svg` files in a separate location (hint: inside a folder named svg), and call them when needed. 
-	* It keeps the `.html` file clean whth only the necessary content being shown.  
+	* It keeps the `.html` file clean with only the necessary content being shown.  
 
 Here's how to do it: 
 
@@ -97,7 +96,7 @@ Here's how to do it:
 	<body>
 		<object
 			data = "location/of/the/file.svg"
-			width = "width of the svg so it doesn't oveflow the page"
+			width = "width of the svg so it doesn't overflow the page"
 		</object>
 	</body>
 
@@ -107,8 +106,6 @@ Here's how to do it:
 That's pretty much it.
 
 
-#Incomplete
-
 ## Projects List: 
 
 **File:** Not there
@@ -117,7 +114,7 @@ That's pretty much it.
 
 **File:** Not there
 
-**Description:** [SheetJS/JS-XLSX]() is a library that can take an MS Excel workbook (`.xls`, `.xlsx`) and generate a JS object. This JS object can be queried and modified, in turn modifying the worbook. 
+**Description:** [SheetJS/JS-XLSX]() is a library that can take an MS Excel workbook (`.xls`, `.xlsx`) and generate a JS object. This JS object can be queried and modified, in turn modifying the workbook. 
 
 I have used this **amazing** library to act as a data source and fill in tables, lists, etc. on my [personal webpage](). I'm sharing the functions.
 
