@@ -3,8 +3,8 @@
 Contains CSS and JS files that do things that I find useful.
 
 ##### Table of Contents  
-* [MAL List](CSS-and-JS#mal-list)  
-* [Programming Language SVGs](CSS-and-JS#programming-language-svgs)  
+* [MAL List](##mal-list)  
+* [Programming Language SVGs](##programming-language-svgs)  
 
 
 ## MAL List: 
